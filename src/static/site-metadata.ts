@@ -15,10 +15,10 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: "Magisk's Running note",
+  siteTitle: "Magisk's runblog",
   siteUrl: 'https://run.magiskzy.org',
   logo: 'https://magiskxzy.org/images/profilezzz.jpg',
-  description: '记录跑步数据',
+  description: 'Personal site and blog',
   navLinks: [
     {
       name: 'Summary',
