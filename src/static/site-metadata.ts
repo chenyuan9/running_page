@@ -16,7 +16,7 @@ const getBasePath = () => {
 
 const data: ISiteMetadataResult = {
   siteTitle: "Magisk's runblog",
-  siteUrl: 'https://run.magiskzy.org',
+  siteUrl: 'runblog.magiskxzy.org',
   logo: 'https://magiskxzy.org/images/profilezzz.jpg',
   description: 'Personal site and blog',
   navLinks: [
