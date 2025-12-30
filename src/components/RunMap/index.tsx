@@ -372,8 +372,8 @@ const RunMap = ({
       ref={mapRefCallback}
       cooperativeGestures={isTouchDevice()}
       mapboxAccessToken={MAPBOX_TOKEN}
-      logoPosition="bottom-right"      // 移动Mapbox Logo
-      attributionControl={false}   // 禁用默认的图片上版权信息
+      logoPosition="bottom-right" // 移动Mapbox Logo
+      attributionControl={false} // 禁用默认的图片上版权信息
     >
       {/* 手动添加版权信息并设置位置为左上方 */}
       <AttributionControl position="top-left" style={{ marginTop: '40px' }} />
