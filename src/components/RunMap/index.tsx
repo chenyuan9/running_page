@@ -11,6 +11,7 @@ import Map, {
   Source,
   FullscreenControl,
   NavigationControl,
+  AttributionControl, // 添加这一行
   MapRef,
 } from 'react-map-gl';
 import { MapInstance } from 'react-map-gl/src/types/lib';
@@ -371,7 +372,11 @@ const RunMap = ({
       ref={mapRefCallback}
       cooperativeGestures={isTouchDevice()}
       mapboxAccessToken={MAPBOX_TOKEN}
+      logoPosition="bottom-right"      // 移动Mapbox Logo
+      attributionControl={false}   // 禁用默认的图片上版权信息
     >
+      {/* 手动添加版权信息并设置位置为左上方 */}
+      <AttributionControl position="top-left" style={{ marginTop: '40px' }} />
       <RunMapButtons changeYear={changeYear} thisYear={thisYear} />
       <Source id="data" type="geojson" data={combinedGeoData}>
         <Layer
