@@ -30,7 +30,7 @@ const data: ISiteMetadataResult = {
     },
     {
       name: 'About',
-      url: 'https://magiskxzy.org',
+      url: 'https://magiskxzy.org/painters/runblog_preface/',
     },
   ],
 };
