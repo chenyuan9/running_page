@@ -55,7 +55,7 @@ const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `本站作跑步数据记录之用，与大家共勉( ‘-^ )b`;
+  return `本站作跑步数据记录之用，( ‘-^ )b与大家共勉`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Tracking my running journey, one mile at a time. Let's keep moving!`;
