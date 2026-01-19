@@ -41,7 +41,7 @@ const MAP_HEIGHT = window.innerWidth <= 768 ? 250 : 600;
 const ROAD_LABEL_DISPLAY = true;
 // updated on 2024/11/17: privacy mode is set to true by default
 //set to `true` if you want to display only the routes without showing the map.
-const PRIVACY_MODE = True;
+const PRIVACY_MODE = true;
 // updated on 2024/11/17: lights are turned off by default
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
 const LIGHTS_ON = false;
@@ -53,9 +53,8 @@ const RICH_TITLE = false;
 // IF you are outside China please make sure IS_CHINESE = false
 const IS_CHINESE = true;
 const USE_ANIMATION_FOR_GRID = false;
-const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
-  const yearStr = year === 'Total' ? '所有' : ` ${year} `;
-  return `本站作跑步数据记录之用，( ‘-^ )b与大家共勉`;
+const CHINESE_INFO_MESSAGE = (_yearLength: number, _year: string): string => {
+    return `本站作跑步数据记录之用，( ‘-^ )b与大家共勉`;
 };
 const ENGLISH_INFO_MESSAGE = (yearLength: number, year: string): string =>
   `Tracking my running journey, one mile at a time. Let's keep moving!`;
